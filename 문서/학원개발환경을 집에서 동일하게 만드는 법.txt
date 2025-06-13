@@ -1,0 +1,44 @@
+<학원개발환경을 집에서 동일하게 만드는 법>
+
+1. IDE 설치 - 인텔리제이 커뮤니티 버전(무료버전)
+: JDK 버전은 17버전
+: 벤더는 Amazon Corretto
+: 만약 벤더 Amazon Corretto없다면 Oracle OpenJDK 또는 Microsoft Open JDK 가능
+2. Github Desktop 설치 - 윈도우, 맥, 리눅스
+3. Github Desktop 로그인
+4. Github Desktop 로그인하면 학원에서 작업했던 Java 저장소가 보여야함!!
+: 만약 안보인다면 로그인이 잘못된것임
+5. 로컬 디렉토리 위치를 생성
+1) 윈도우 : 문서/Github
+2) 맥, 리눅스 : ~/Github
+6. Github Desktop에서 Java저장소를 선택하고 clone respository 실행
+: 위치는 5번의 위치 선택 - 문서/Github/Java로 생성됨 (확인필요)
+7. 인텔리제이에서 문서/Github/Java 위치를 open project 함
+8. 인텔리제이에서 java 파일 run 실행
+- 끝 -
+
+
+문제 1) run 버튼이 활성화 안됨.
+문제 2) 화면이 시뻘겋다.
+문제의 원인은 인텔리제이의 JDK 설치 오류 때문
+해결법 1)
+메인메뉴(햄버거메뉴) - Project Structure - Project Settings - Project - SDK 설정창이 있음 - Corretto 17로 선택 (17 OpenJDK 가능)
+해결법 2)
+- 인텔리제이에서 기존 open했던 프로젝트 삭제
+-> 문서/Github/Java의 자바(Java)폴더를 바탕화면으로 이동
+-> 인텔리제이에서 open project 대신 new project 실행
+-> 문서/Github/Java 를 새 프로젝트로 생성
+-> 새로 만들어진 src 폴더를 바탕화면으로 이동한 src폴더 덮어쓰기
+
+
+
+
+
+
+
+
+
+
+
+
+
