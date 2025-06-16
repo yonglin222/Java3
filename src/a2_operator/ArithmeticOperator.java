@@ -36,6 +36,7 @@ public class ArithmeticOperator {
         System.out.println(value5); // 4
         System.out.println(value6); // 4
 
+        // 절대 이런짓 하지 말자!!!
         int value7 = 3;
         int value8 = 4;
         int value9 = 2 + value7-- + ++value8;
