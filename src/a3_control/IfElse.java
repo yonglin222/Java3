@@ -40,6 +40,7 @@ public class IfElse {
         String userName = scanner.nextLine();
         System.out.println(userName);
         System.out.println("끝");
+        scanner.close(); // 스캐너 객체를 메모리에서 삭제시킴
     }
 }
 
