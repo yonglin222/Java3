@@ -28,6 +28,20 @@ public class Ch4_Example {
             default:
                 System.out.println("F학점");
         }
+
+        // Q3
+        for (int i=0;  ; i++) {
+            if (i > 10) {
+                break;
+            }
+            if (i % 2 == 1) { // 홀수
+                continue;
+            }
+            System.out.print(i + ", ");
+        }
+
+        // Q4
+        
     }
 }
 
