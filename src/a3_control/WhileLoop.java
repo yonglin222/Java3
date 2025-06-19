@@ -25,6 +25,7 @@ public class WhileLoop {
             j++; // 증감식
         }while (j<10); //조건식
         System.out.println("반복끝");
+        
         // 중요!
         // while문과 do~while문의 차이점
         // 조건식이 처음부터 false인 경우,
