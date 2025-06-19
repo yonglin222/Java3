@@ -25,10 +25,11 @@ public class WhileLoop {
             j++; // 증감식
         }while (j<10); //조건식
         System.out.println("반복끝");
-        
-        // 중요!
+
+        // 알아두면 좋아요!
         // while문과 do~while문의 차이점
-        // 조건식이 처음부터 false인 경우,
+        // 조건식이 처음부터 false인 경우, while문은 실행코드가 실행되지 않으나,
+        // do~while문은 1회 실행됨. 실행코드가 조건식보다 위에 있기때문.
         int a = 0;
         while(a > 1) {
             System.out.println("실행안됨");
