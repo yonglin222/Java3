@@ -14,6 +14,14 @@ public class Example2 {
     public static String checkPositiveOrNegative(int num) {
         // 매개변수 num이 양수이면 "양수", 음수이면 "음수", 0이면 "0"을
         // 반환하도록 코드를 작성하세요.
-        return "";
+        String result;
+        if (num > 0) {
+            result = "양수";
+        }else if (num < 0) {
+            result = "음수";
+        }else {
+            result = "0";
+        }
+        return result;
     }
 }
