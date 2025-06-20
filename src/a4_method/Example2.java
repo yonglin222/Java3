@@ -4,11 +4,11 @@ public class Example2 {
     public static void main(String[] args) {
         // 주어진 숫자가 양수인지 음수인지 확인하는 메서드
         String str = checkPositiveOrNegative(10);
-        System.out.println(str);
+        System.out.println(str); // 양수
         str = checkPositiveOrNegative(-5);
-        System.out.println(str);
+        System.out.println(str); // 음수
         str = checkPositiveOrNegative(0);
-        System.out.println(str);
+        System.out.println(str); // 0
     }
 
     public static String checkPositiveOrNegative(int num) {
