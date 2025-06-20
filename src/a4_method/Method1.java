@@ -9,8 +9,8 @@ public class Method1 {
 
         int number = 4;
         checkOddEven(number); // 숫자를 주면 짝수인지 홀수인지 알려주는 함수
-        
-        int bigNumber = 1265341;
+
+        int bigNumber = 2134131;
         int baseNumber = 3;
         // 베이스 숫자의 배수인지 여부를 알려주는 함수
         checkMultipleOf(bigNumber, baseNumber);
@@ -40,5 +40,11 @@ public class Method1 {
         public static void checkOddEven(int number) {
         String str = (number % 2 == 0) ? "짝수" : "홀수";
         System.out.println(str);
+    }
+
+    // 베이스 숫자의 배수인지 여부를 알려주는 함수
+    public static void checkMultipleOf(int number, int base) {
+        boolean isMultiple = (number % base == 0) ? true : false;
+        System.out.println(base + "의 배수 : " + isMultiple);
     }
 }
